@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+    background-color: black;
+    display: flex;
+    padding: 1em;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .navbar .link {
+    color: white;
+    /* text-decoration: none; */
+    margin-right: 1em;
+    background-color: #066086;
+    padding: 20px;
+  }
+  
+  /* .lowerDesign {
+    border: 2px red solid;
+    background-color: red;
+  }
+  
+  #username {
+    color: white;
+    padding: 5px;
+    width: 4%;
+    position: absolute;
+    right: 5em;
+    top: 0;
+    bottom: 1%;
+    margin-bottom: 1%;
+  } */
+
+
+
+/* Navbar.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.6); /* Adjust opacity as needed */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px); /* Optional: For a blur effect */
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.link {
+  margin: 0 15px;
+  cursor: pointer;
+  /* text-decoration: none; */
+  color: black; /* Change color as needed */
+}
+
+.link:hover {
+  color: #007BFF; /* Optional: Change color on hover */
+}
+
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: black; /* Change color as needed */
+}
+
+.button:hover {
+  color: #007BFF; /* Optional: Change color on hover */
+}

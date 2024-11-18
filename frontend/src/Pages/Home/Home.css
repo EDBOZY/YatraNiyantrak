@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url(../../images/background.png);
+    height: 92.7vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.hero .left{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    
+}
+.hero .imgu{
+    margin-top: 60px;
+}
+.hero .container{
+    height: 50vh;
+    width: 45vw;
+    background-color: white;
+    margin-left: 80px;
+    border-radius: 1rem;
+    padding: 20px;
+    z-index: 2;
+
+}
+.hero .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    margin-right: 70px;
+}
+.dis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* width: 100vw; */
+    height: 100vh;
+}
+.dis .up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    /* flex: 1; */
+
+}
+.dis .down{
+    flex:1;
+    margin-top: -40px;
+}
+.dis p{
+    width: 45vw;
+    text-align: center;
+    font-size: larger;
+}
+.dis .up h1{
+    font-size: 40px;
+}
+.dis .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 52vh;
+    /* border: 1px solid black; */
+    gap: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    /* background-color: black; */
+
+}
+.dis .ud img{
+    height: 35vh;
+    margin-top: -7x;
+}
+.dis .down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.dis .dd p{
+    width: 25vw;
+    text-align: center;
+}
+.dis b{
+    cursor: pointer;
+}
+.hero .line{
+    background-color: black;
+    color: black;
+    width: 42vw;
+    height: 0.1vh;
+}
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.hero .status{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.hero .status span{
+    font-size: larger;
+    font-weight: bold;
+}
+.hero .recent{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.hero .recent span{
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    width: 5vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.hero .recent .bu span:hover{
+    background-color: #009DDB;
+}
+.hero .bu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-size: larger;
+}
+.hero .book{
+    height: 34vh;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+}
+.book .checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 4rem;
+    padding: 10px;
+}
+.book .checkbox span{
+    font-size: larger;
+}
+.book .one{
+    display: flex;
+    gap: 1rem;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+}
+.search input{
+    padding: 20px;
+    width: 38vw;
+
+}
+.search input::placeholder{
+    font-size: large;
+}
+ .date{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.date .input{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    width: 14vw;
+}
+.checkbox .date input::placeholder{
+    font-size: large;
+}
+ .date .sb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* border: 1px solid black; */
+    width: 9vw;
+    padding: 20px;
+    border-radius: 1rem;
+    border-color: white;
+}
+.sb span{
+    font-size: larger;
+}
+.search img:hover{
+    transform: scale(1.1);
+}
+.sb:hover{
+    transform: scale(1.1);
+}
+
+/* ADD */
+
+
+.add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    padding: 20px;
+    height: 90vh;
+    justify-content: center;
+}
+.add .box{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 40vh;
+    width: 80vw;
+    /* border: 1px solid black; */
+    padding: 20px;
+    background-image: url(../../images/k.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2rem;
+    /* gap: 4rem; */
+
+}
+.add .te{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: white;
+}
+.add .blue{
+    height: 7vh;
+    width: 7vw;
+    color: white;
+    background-color: blue;
+    display: flex;align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+.add .bd{
+    display: flex;align-items: center;
+    justify-content: center;
+    color: white;
+    /* margin-top: 100px; */
+    height: 3vh;
+    /* background-color: lightpink; */
+}
+.add .textt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+.add .textt h1{
+    font-size: 40px;
+}
+.add .textt h2{
+    font-size: 30px;
+}
+
+
+/* services */
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    height: 70vh;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.services .row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.services .box{
+    height: 26vh;
+    width: 14vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+    font-size: large;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.services .box:hover{
+    transform: scale(1.01);
+}
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 2rem;
+    background-color: #D9D0E3
+    ;
+
+}
+.footer .up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12rem;
+}
+.footer .part{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.footer .part span{
+    font-size: large;
+    color: #667B85;
+}
+.footer .line{
+    background-color: black;
+    color: black;
+    width: 90vw;
+    height: 0.1vh;
+}
+.footer .down{
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    align-items: flex-start;
+
+}
+.footer .ld{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+
+}
+.footer .rd{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer span{
+    font-size: larger;
+}

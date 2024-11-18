@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 2rem;
+    /* background-color: #F8F8F8    ; */
+}
+.payment .up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px;
+}
+.payment .upbox{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 8vh;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: larger;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom: 5px solid blue;
+    /* background-color: lightgray; */
+            /* box-shadow: 0 15px 15px -10px blue; */
+}
+
+.payment .down{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+}
+.payment .tname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20rem;
+    align-items: center;
+}
+.payment .tid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.payment .tid .s{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 4px;
+}
+.payment .line{
+    background-color: black;
+    color: black;
+    /* width: 65vw; */
+    height: 0.1vh;
+}
+.payment .tdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.payment .tdup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+.payment .tdate{
+    display: flex;
+    flex-direction: column;
+}
+.payment .pdetails{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20rem;
+    /* padding: 20px; */
+}
+.payment .pl{
+    display: flex;
+    flex-direction: column;
+
+}
+.payment .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 50rem;
+    align-items: start;
+    font-size: large;
+}
+.payment .price{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.payment .fare{
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment .cardpayment{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 80vw;
+}
+.payment .cl{
+    /* flex:1; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 65vw;
+    padding: 20px;
+    /* height: 10vh; */
+}
+.payment .payu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 15rem; */
+    height: 6vh;
+    /* border: 1px solid black; */
+    padding: 10px;
+    align-items: center;
+    /* width: 30vw; */
+}
+.payment .cr{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+    /* flex:2; */
+}
+.payment .cri{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.payment .cr input{
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+.payment .crt{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    gap: 0.5rem;
+    color: gray;
+}
+.payment .crc{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.payment .pbuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+
+}
+.payment .butt{
+    padding: 20px;
+    /* background-color: aqua; */
+    font-size: large;
+    height: 7vh;
+    width: 9vw;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}

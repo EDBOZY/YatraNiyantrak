@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ticket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 2rem;
+    /* background-color: #F8F8F8    ; */
+}
+.ticket .up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px;
+}
+.ticket .upbox{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 8vh;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: larger;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom: 5px solid blue;
+    /* background-color: lightgray; */
+            /* box-shadow: 0 15px 15px -10px blue; */
+}
+
+.ticket .down{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+}
+.ticket .tname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20rem;
+    align-items: center;
+}
+.ticket .tid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.ticket .tid .s{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 4px;
+}
+.ticket .line{
+    background-color: black;
+    color: black;
+    /* width: 65vw; */
+    height: 0.1vh;
+}
+.ticket .tdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ticket .tdup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+.ticket .tdate{
+    display: flex;
+    flex-direction: column;
+}
+.ticket .pdetails{
+    display: flex;
+    flex-direction: row;
+    gap: 20rem;
+    /* padding: 20px; */
+}
+.ticket .pl{
+    display: flex;
+    flex-direction: column;
+
+}
+.ticket .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20rem;
+    align-items: start;
+    font-size: large;
+}
+.ticket .price{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ticket .fare{
+    display: flex;
+    justify-content: space-between;
+}
+.ticket .passdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.ticket .ts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    gap: 4rem;
+}
+.ticket .tpay{
+    display: flex;
+    flex-direction: column;
+
+}
+.ticket .tpays{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.ticket .pbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30rem;
+    align-items: center;
+
+}
+.ticket .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.ticket .butt{
+    padding: 20px;
+    /* background-color: aqua; */
+    font-size: large;
+    height: 6vh;
+    width: 9vw;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
